@@ -1,0 +1,356 @@
+1665:8164e4101b04a112617fdbe81aedee8a108e6eca
+0
+24
+EA4-c7:6364:1733358058
+cpanel-addons-production-feed:78:1676320157
+cpanel-plugins:176:1732655787
+base:10072:1604001756
+epel:13791:1719793483
+extras:526:1712079707
+imunify360:4579:1733388079
+imunify360-rollout-1:0:1730979682
+imunify360-rollout-2:0:1732716686
+imunify360-rollout-3:12:1732631830
+imunify360-rollout-4:0:1733474995
+imunify360-rollout-5:0:1732023965
+imunify360-rollout-6:0:1731660812
+imunify360-rollout-7:0:1731585817
+imunify360-rollout-8:0:1732274182
+mysql-connectors-community:265:1728667955
+mysql-tools-community:110:1728655913
+mysql57-community:696:1697729409
+remi-php80:418:1718341785
+remi-safe:5596:1718341921
+updates:6173:1718987347
+wp-toolkit-cpanel:1:1732646606
+wp-toolkit-thirdparties:16:1732646609
+installed:1665:69cdfff8799e6577cdb9346cccfc7d9a40455f29
+44
+mbr: ea-php82-php-devel,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a:dependson
+  depends_on: ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a
+mbr: ea-php80-php-imap,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-php-devel,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-php-zip,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-php-iconv,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-php-cli,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: ea-php82,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a:dependson ea-php82-php-bcmath,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-calendar,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-curl,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-devel,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-fpm,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-ftp,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-gd,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-iconv,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-imap,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-litespeed,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-mbstring,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-pdo,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-posix,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-sockets,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-xml,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-zip,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson
+  depends_on: ea-php82,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a ea-php82-php-bcmath,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-calendar,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-curl,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-devel,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-fpm,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-ftp,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-gd,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-iconv,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-imap,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-litespeed,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-mbstring,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-pdo,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-posix,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-sockets,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-xml,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-zip,x86_64,0,8.2.26,1.1.1.cpanel@a
+mbr: ea-php82-php-gd,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-php-calendar,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-php-zip,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-php-ftp,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-php-posix,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a:dependson
+  depends_on: ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a
+mbr: ea-php80-php-cli,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-pear,noarch,0,1.10.16,1.2.1.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-php-calendar,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-php-common,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: ea-php82,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a:dependson ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a:dependson ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a:dependson ea-php82-php-bcmath,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-calendar,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-cli,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-curl,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-fpm,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-ftp,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-gd,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-iconv,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-imap,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-litespeed,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-mbstring,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-pdo,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-posix,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-sockets,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-xml,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-php-zip,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson
+  depends_on: ea-php82,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a ea-php82-php-bcmath,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-calendar,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-cli,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-curl,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-fpm,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-ftp,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-gd,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-iconv,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-imap,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-litespeed,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-mbstring,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-pdo,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-posix,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-sockets,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-xml,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-php-zip,x86_64,0,8.2.26,1.1.1.cpanel@a
+mbr: ea-php82-php-litespeed,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: ea-php82-php-cli,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson
+  depends_on: ea-php82-php-cli,x86_64,0,8.2.26,1.1.1.cpanel@a
+mbr: ea-php82,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-php-imap,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-php-mysqlnd,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-php-bcmath,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-php-mbstring,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-php-pdo,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: ea-php82-php-mysqlnd,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson
+  depends_on: ea-php82-php-mysqlnd,x86_64,0,8.2.26,1.1.1.cpanel@a
+mbr: ea-php82-php-ftp,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a:dependson
+  depends_on: ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a
+mbr: ea-php80-runtime,x86_64,0,8.0.30,1.1.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-php-gd,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-php-mbstring,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-php-curl,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-php-sockets,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: ea-php82,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson
+  depends_on: ea-php82,x86_64,0,8.2.26,1.1.1.cpanel@a
+mbr: ea-php80-php-fpm,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-php-iconv,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-php-pdo,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-php-curl,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-php-posix,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80,x86_64,0,8.0.30,1.1.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-runtime,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: ea-php82,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a:dependson ea-php82-php-common,x86_64,0,8.2.26,1.1.1.cpanel@a:dependson
+  depends_on: ea-php82,x86_64,0,8.2.26,1.1.1.cpanel@a ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a ea-php82-php-common,x86_64,0,8.2.26,1.1.1.cpanel@a
+mbr: ea-php80-php-common,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-php-xml,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a:dependson
+  depends_on: ea-php82-pear,noarch,0,1.10.16,1.2.1.cpanel@a
+mbr: ea-php82-php-sockets,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-php-mysqlnd,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-php-litespeed,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-php-fpm,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php80-php-xml,x86_64,0,8.0.30,7.11.4.cpanel 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: ea-php82-php-bcmath,x86_64,0,8.2.26,1.1.1.cpanel 70
+  repo: EA4-c7
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
