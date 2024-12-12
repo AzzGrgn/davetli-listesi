@@ -1,0 +1,29 @@
+# PHP dosya sınıflandırmaları
+*.log
+*.cache
+*.env
+.env
+
+# Composer vendor dizini
+/vendor/
+
+# Composer lock dosyası
+composer.lock
+
+# Node.js bağımlılıkları
+/node_modules/
+
+# OS özel dosyalar
+.DS_Store
+Thumbs.db
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+
+# Git için gereksiz dosyalar
+.git/
+
+# PHP unit test dosyaları
+/tests/
+
